@@ -10,4 +10,16 @@ npm run dev
 
 ``` bash
 git init
+
+
+git add .
+git commit -m "message"
+git push
+```
+
+## Update Code
+``` bash
+git add .
+git commit -m "message"
+git push
 ```
