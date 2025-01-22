@@ -10,6 +10,7 @@ function MainNav() {
           <Link to="about" >About</Link>
           <Link to="contact" >Contact</Link>
           <Link to="recap" >Recap</Link>
+          <Link to="recapusestate" >Recap UseState</Link>
         </div>
         <div className='flex gap-4'>
           <Link to="login">Login</Link>

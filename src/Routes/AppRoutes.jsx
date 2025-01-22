@@ -6,10 +6,11 @@ import About from '../pages/About'
 import Contact from '../pages/Contact'
 import LoginPage from '../pages/LoginPage'
 import Register from '../pages/Register'
-import DashBoard from '../admin/DashBoard'
-import Manage from '../admin/Manage'
-import SettingPage from '../admin/SettingPage'
+import DashBoard from '../pages/admin/DashBoard'
+import Manage from '../pages/admin/Manage'
+import SettingPage from '../pages/admin/SettingPage'
 import Recap from '../pages/Recap'
+import RecapUseState from '../pages/RecapUseState'
 
 
 function AppRoutes() {
@@ -22,9 +23,11 @@ function AppRoutes() {
                 <Route index element={<Home />} />
                 <Route path="about" element={<About />} />
                 <Route path="contact" element={<Contact />} />
-                <Route path="recap" element={<Recap />} />
                 <Route path="login" element={<LoginPage />} />
                 <Route path="register" element={<Register />} />
+
+                <Route path="recap" element={<Recap />} />
+                <Route path="recapusestate" element={<RecapUseState />} />
                 </Route>
 
                 <Route path="admin" element={ <Layout /> } >
